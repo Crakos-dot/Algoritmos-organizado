@@ -9,7 +9,7 @@ int main(int argc, char const *argv[]) {
   int f = 1;
 
   int z=atoi(argv[1]);
-  int x=atoi(argv[2]);
+  
   for ( i ; i <= z ; i++) {
 
     f=f*i;
