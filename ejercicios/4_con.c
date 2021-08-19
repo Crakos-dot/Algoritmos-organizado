@@ -5,9 +5,9 @@
 int main(int argc, char  *argv[]) {
 
 int contador;
+int a = atoi(argv[1]);
 
-
-for (contador=1;contador<=11;contador++) {
+for (contador=1;contador<=a;contador++) {
 printf("Hola mundo\n");
 }
 
